@@ -10,6 +10,7 @@ header .row{
 }
 
 /* Main */
+
 main{
     background-image: url('../img/cork.png');
 }
@@ -44,6 +45,28 @@ main{
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* Overlay */
+.overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+}
+
+.overlay .col{
+    position: relative;
+}
+
+.overlay img{
+    opacity: 1;
+}
+
+.overlay button{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(-0%, -50%);
 }
 
 /* Responsive Font Size */
