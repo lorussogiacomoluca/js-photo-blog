@@ -58,8 +58,8 @@ main{
     position: relative;
 }
 
-.overlay img{
-    opacity: 1;
+.overlay .overlay-image{
+    width: 600px
 }
 
 .overlay button{
@@ -68,6 +68,7 @@ main{
     right: 0%;
     transform: translate(-0%, -50%);
 }
+
 
 /* Responsive Font Size */
 @media screen and (max-width: 576px) {
