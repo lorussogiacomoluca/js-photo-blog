@@ -45,3 +45,22 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Responsive Font Size */
+@media screen and (max-width: 576px) {
+    .photo-title{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .photo-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .photo-title {
+        font-size: 1.3rem;
+    }
+}

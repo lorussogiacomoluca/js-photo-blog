@@ -22,7 +22,10 @@ const generatePhotoItem = (domElement) =>{
                          <div class="photo-image">
                              <img class=" img-fluid" src="${item.url}" alt="">
                          </div>
-                         <div class="photo-desc text-center text-md-start"> <div class='photo-date text-secondary'>${item.date}</div> <div class='photo-title'>${item.title}</div></div>
+                         <div class="photo-desc text-center text-md-start">
+                            <div class='photo-date text-secondary'>${item.date}</div>
+                                <div class="photo-title">${item.title}</div>
+                        </div>
                          <img src='./img/pin.svg' class='pin'>
                      </div>
                  </div>
