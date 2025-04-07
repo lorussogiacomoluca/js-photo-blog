@@ -19,7 +19,12 @@ main{
     background-color: #fff;
     box-shadow: 5px 6px 9px -3px #000;
     position: relative;
+    opacity: 0.8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
+
+
 
 .photo-image{
     width: 100%;
@@ -86,5 +91,11 @@ main{
 @media screen and (min-width: 993px) {
     .photo-title {
         font-size: 1.3rem;
+    }
+
+    .photo-item:hover{
+        transform: scale(1.1);
+        transform: rotate(10deg);
+        opacity: 1;
     }
 }
