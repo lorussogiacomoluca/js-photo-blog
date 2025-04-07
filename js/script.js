@@ -37,14 +37,18 @@ const generatePhotoItem = (domElement) => {
         const overlay = document.getElementById('overlay');
 
         //photo-image variable
-        const photoImage = document.querySelectorAll('.photo-image');
+        const photoImage = document.querySelectorAll('.photo-image img');
 
         //btn-close overlay
         const btnClose = document.querySelector('.btn-close')
 
+        //overlay image
+        let overlayImage = document.querySelector('.overlay-image')
+
         photoImage.forEach((image)=>{
             image.addEventListener('click', ()=>{
                 overlay.classList.remove('d-none')
+                overlayImage.src = image.src
             })
         })
 
