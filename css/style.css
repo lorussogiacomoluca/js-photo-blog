@@ -17,6 +17,7 @@ main{
 .photo-item{
     background-color: #fff;
     box-shadow: 5px 6px 9px -3px #000;
+    position: relative;
 }
 
 .photo-image{
@@ -36,4 +37,11 @@ main{
 
 .photo-date{
     font-family: "Sometype Mono", monospace;
+}
+
+.pin{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
