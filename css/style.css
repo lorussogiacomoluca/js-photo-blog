@@ -94,8 +94,9 @@ main{
     }
 
     .photo-item:hover{
-        transform: scale(1.1);
-        transform: rotate(10deg);
+        transform: scale(1.1) rotate(10deg);
         opacity: 1;
+        box-shadow: 10px 12px 20px -3px rgba(0, 0, 0, 0.7);
+        z-index: 5;
     }
 }
