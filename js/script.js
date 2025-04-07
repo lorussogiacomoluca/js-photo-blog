@@ -45,6 +45,9 @@ const generatePhotoItem = (domElement) => {
         //btn-close overlay
         const btnClose = document.querySelector('.btn-close')
 
+        //overlay-image
+        let overlayImage = document.querySelector('.overlay-image')
+
 
         photoImage.forEach((image)=>{
 

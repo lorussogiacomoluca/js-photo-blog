@@ -97,6 +97,6 @@ main{
         transform: scale(1.1) rotate(10deg);
         opacity: 1;
         box-shadow: 10px 12px 20px -3px rgba(0, 0, 0, 0.7);
-        z-index: 5;
+        z-index: 2;
     }
 }
