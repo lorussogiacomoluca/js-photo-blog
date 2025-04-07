@@ -1,0 +1,19 @@
+/* Header */
+header{
+    background-image: url('../img/wall.png');
+}
+
+header .row{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 65px;
+}
+
+/* Main */
+main{
+    background-image: url('../img/cork.png');
+}
+
+main .container{
+    height: 86vh;
+}
