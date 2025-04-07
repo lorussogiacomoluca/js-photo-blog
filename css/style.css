@@ -14,8 +14,6 @@ main{
     background-image: url('../img/cork.png');
 }
 
-
-
 .photo-item{
     background-color: #fff;
     box-shadow: 5px 6px 9px -3px #000;
@@ -28,4 +26,14 @@ main{
 
 .photo-desc{
     padding: 5px 20px 15px
+}
+
+.photo-title {
+    font-family: "Edu TAS Beginner", cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.photo-date{
+    font-family: "Sometype Mono", monospace;
 }
