@@ -5,7 +5,6 @@ const gallery = document.getElementById('gallery')
 //ENDOPOINT
 const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
 
-
 //Funzione per creare photo-item 
 const generatePhotoItem = (domElement) => {
     //Svuota gallery
@@ -38,9 +37,6 @@ const generatePhotoItem = (domElement) => {
 
         //photo-image variable
         const photoImage = document.querySelectorAll('.photo-image img');
-
-        //photo-item variable
-        const photoItem = document.querySelectorAll('.photo-image');
 
         //btn-close overlay
         const btnClose = document.querySelector('.btn-close')
